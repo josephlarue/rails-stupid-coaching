@@ -1,0 +1,21 @@
+<div style="text-align: center;">  
+  
+  <div class="flex">
+  <img src="https://previews.123rf.com/images/altanaka/altanaka1511/altanaka151100069/47858678-portrait-of-sad-little-boy-sitting-near-the-window-at-home-at-the-day-time.jpg" width="100" height="66" class="rounded">
+  <span></span>
+  <h4><%= params[:question] %></h4>
+  </div>
+  <p>-You</p><p class="flex status" style="color:#F4F4F4;">  Looooser</p>
+  <br>
+  <br>
+  <br>
+  <div class="flex">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIuHTgi8VP9uJGwnyUhCjzSG8Cd7u4-OJ2Gg&usqp=CAU" width="100" height="66" class="rounded">
+  <span></span>
+  <h4><%= @answer  %></h4>
+  </div>
+  <p class="bud">-Coach</p><p class="flex status" style="color:#F4F4F4;">  Winner</p>
+  <br>
+  <br>
+  <a><%= link_to "Ask new question!", ask_path %> </a>
+</div>
